@@ -1,3 +1,7 @@
 from django.contrib import admin
 
-# Register your models here.
+from .models import Budget, BudgetGroup, BudgetItem
+
+admin.site.register(Budget)
+admin.site.register(BudgetGroup)
+admin.site.register(BudgetItem)
